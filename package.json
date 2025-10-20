@@ -1,0 +1,25 @@
+{
+  "name": "@connect.io/bff-models",
+  "private": "false",
+  "version": "1.0.0",
+  "description": "Connect.io API models",
+  "author": "connect.io",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf -rf dist/ && tsc"
+  },
+  "keywords": [
+    "connect.io"
+  ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@types/node": "^24.8.1",
+    "typescript": "^5.9.3"
+  }
+}
