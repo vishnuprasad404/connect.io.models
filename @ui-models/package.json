@@ -12,5 +12,8 @@
     "clean": "rimraf -rf dist -v",
     "build": "npm run clean && tsup",
     "prebuild": "npm run clean"
+  },
+  "repository": {
+    "url": "https://github.com/vishnuprasad404/connect.io.models"
   }
 }
