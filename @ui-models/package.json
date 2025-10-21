@@ -1,0 +1,16 @@
+{
+  "name": "@connect.io/ui-models",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "Connect.io UI Request and Response models",
+  "author": "connect.io",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rimraf -rf dist -v",
+    "build": "npm run clean && tsup",
+    "prebuild": "npm run clean"
+  }
+}

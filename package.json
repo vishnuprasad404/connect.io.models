@@ -1,0 +1,18 @@
+{
+  "name": "connect.io-models",
+  "version": "1.0.0",
+  "description": "Connect.io Request and Responce models for API and UI",
+  "author": "Connect.io",
+  "license": "MIT",
+  "scripts": {
+    "publish": "node publish.mjs"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "inquirer": "^12.10.0",
+    "rimraf": "^6.0.1"
+  }
+}
