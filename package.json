@@ -1,25 +1,18 @@
 {
-  "name": "@connect.io/bff-models",
-  "private": "false",
+  "name": "connect.io-models",
   "version": "1.0.0",
-  "description": "Connect.io API models",
-  "author": "connect.io",
+  "description": "Connect.io Request and Responce models for API and UI",
+  "author": "Connect.io",
   "license": "MIT",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "rimraf -rf dist/ && tsc"
+    "publish": "node publish.mjs"
   },
-  "keywords": [
-    "connect.io"
-  ],
-  "files": [
-    "dist",
-    "README.md"
-  ],
   "devDependencies": {
-    "@types/node": "^24.8.1",
+    "tsup": "^8.5.0",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "inquirer": "^12.10.0",
+    "rimraf": "^6.0.1"
   }
 }
